@@ -8,6 +8,31 @@
     <title>Trippin</title>
   </head>
   <body>
+  	<div id="list-of-trips"></div>
+  		<div class="center">
+				<form class="addForm">
+					<div class="form-group">
+						<label for="locationName">Location Name</label>
+						<input type="text" class="form-control" id="locationName" placeholder="Location Name">
+					</div>
+					<div class="form-group">
+						<br>
+						<label for="locationType">Location Type</label>
+						<input type="text" class="form-control" id="locationType" placeholder="Location Type">
+					</div>
+					<div class="form-group">
+						<br>
+						<label for="review">Review</label>
+						  <textarea class="form-control" rows="5" id="review" placeholder="How'd it go?"></textarea>
+					</div>
+					<div>
+						<button type="button" class="btn btn-default visited">Visited</button>
+						<button type="button" class="btn btn-default wish-list">Wish List</button>
+					</div>
+					<br>
+					<button type="button" class="btn btn-default subBtn">Submit</button>
+				</form>
+			</div>
     <script data-main="javascripts/main" src="lib/bower_components/requirejs/require.js"></script>
   </body>
 
